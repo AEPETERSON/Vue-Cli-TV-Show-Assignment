@@ -3,8 +3,8 @@
 <!--Date: 12/7/2020-->
 <template>
   <div>
-    <h1>Happy Birthday</h1>
-      <h2>{{aShow.name}}</h2>
+      <h1>{{aShow.name}}</h1>
+      <img v-bind:src="'https://image.tmdb.org/t/p/w500/' + aShow.poster_path">
       <p>{{aShow.overview}}</p>
 
   </div>
